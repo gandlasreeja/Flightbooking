@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+body{
+    background-image:url("airline5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+}
+h1{
+   color: blueviolet;
+    text-align: center;
+
+   
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: xx-large;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color:rgb(5, 42, 79);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 60px;
+}
+.navbar p{
+  float: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 50px;
+  align-content: center;
+}
+.navbar img{
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+/* Links inside the navbar */
+.navbar a {
+  font-size: large;
+  float:right;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: rgb(241, 19, 19);
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.jumping-element {
+  position: relative;
+  animation: jump 1s ease infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the height of the jump */
+  }
+}
+        </style>
+    </head>
+    <body>
+        <h1>Feelgood Airlines</h1>
+        <p style="color:white; font-weight:600; font-family:Roboto;" >Let's travel around
+            Enjoy a lot by spending a little
+            50% off on your bookings till Nov 14,2023
+        </p>
+       
+        <div class="navbar">
+          <img src="airline5.jpg" alt="">
+            <p style="font-size: 20px;">Feelgood airlines</p>
+            <a href="Bookingflight.html"><b>Book a flight</b></a>
+            <a href="http://127.0.0.1/webtech/link4.php"><b>Log-in/Sign-up</b></a>
+            <a href="link3.html"><b>Feedback</b></a>
+            <a href="link2.html"><b>Contact us</b></a>
+            <a href="link1.html"><b>About us</b></a>
+            <a href="home.html"><b>Home</b></a>
+          </div>
+
+          <p class="jumping-element">Your flight ticket has been booked successfully.Thankyou for booking.</p>
+        
+        <footer>
+            <b>&copy; 2023 FeelGood Airlines. All rights reserved.</b>
+        </footer>
+  
+   
+    </body>
+</html>

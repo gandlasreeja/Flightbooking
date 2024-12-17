@@ -1,0 +1,88 @@
+
+body{
+    background-image:url("airline5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+}
+h1{
+   color:beige;
+    text-align: center;
+
+   
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: xx-large;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color:rgb(5, 42, 79);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 60px;
+  }
+  .navbar p{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    align-content: center;
+  }
+  .navbar img{
+    width: 10%;
+    height: 100%;
+    float: left;
+  }
+  /* Links inside the navbar */
+  .navbar a {
+    font-size: large;
+    float:right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: rgb(241, 19, 19);
+  }
+  
+
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.jumping-element {
+  position: relative;
+  animation: jump 1s ease infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the height of the jump */
+  }
+}
+
+

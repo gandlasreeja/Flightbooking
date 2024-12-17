@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        p{
+            color: white;
+            text-align: center;
+            font-family: 'Courier New';
+            font-size: xx-large;
+        }
+      
+body{
+    background-image:url("airline5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+}
+h1{
+   color:beige;
+    text-align: center;
+    margin-top: 150px;
+   
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: xx-large;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color:rgb(5, 42, 79);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 60px;
+  }
+  .navbar p{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    align-content: center;
+  }
+  .navbar img{
+    width: 10%;
+    height: 100%;
+    float: left;
+  }
+  /* Links inside the navbar */
+  .navbar a {
+    font-size: large;
+    float:right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: rgb(241, 19, 19);
+  }
+  
+
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+
+
+
+        p{
+            color: white;
+            text-align: center;
+            font-family: 'Courier New';
+            font-size: xx-large;
+        }
+        .anchor{
+            font-weight: bold;
+            width: 180px;
+            border: 2px solid red;
+        }
+       div a:hover{
+        color: aqua;
+       }
+        div a{
+           
+            display: block;
+            text-decoration: none;
+            color:black ;
+        }
+        .class span{
+            color:chartreuse;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        .class{
+            color: beige;
+            font-weight: bold;
+            font-size: large;
+            width:300px;
+            border: 5px solid red;
+            height: 100px;
+
+        }
+        .container{
+            margin: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr ;
+            grid-template-areas: 
+            'a b c'
+        }
+        #a{
+           grid-area: a;
+        }
+        #b{
+            grid-area: b;
+         }
+         #c{
+            grid-area: c;
+         
+        }
+        .jumping-element {
+            position: relative;
+            animation: jump 1s ease infinite;
+          }
+          
+          @keyframes jump {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-20px); /* Adjust the height of the jump */
+            }
+          }
+      
+    </style>
+    </head>
+    <body>
+        <h1 >Feelgood Airlines</h1>
+        <p style="color:white; font-weight:600; font-family:Roboto;" class="jumping-element">Let's travel around
+            Enjoy a lot by spending a little
+            50% off on your bookings till Nov 14,2023
+        </p>
+        <div class="navbar">
+            <img src="airline5.jpg" alt="">
+            <p style="font-size: 20px;">Feelgood airlines</p>
+            <a href=""><b>Book a flight</b></a>
+            <a href="http://127.0.0.1/webtech/link4.php"><b>Log-in/Sign-up</b></a>
+            <a href="link3.html"><b>Feedback</b></a>
+            <a href="link2.html"><b>Contact us</b></a>
+            <a href="link1.html"><b>About us</b></a>
+            <a href="home.html"><b>Home</b></a>
+          </div>
+   
+       <p>Words from our passengers about our airlines</p>
+       <div class="container">
+       <div class="class" id="a">This is my airline of choice,
+        because of its topnotch service and value for money.
+        <span>Keerthi,Executive</span>
+       </div>
+       <div class="class" id="b">Feelgood has unbeatable deals and files to so 
+        many global destinations.
+        <span>Samyukta,Manager</span>
+       </div>
+       <div class="class" id="c">With great staff papering us passengers,
+        flying becomes true luxury with Feelgood Airlines!
+        <span>Harsha,entrepreneur</span>
+       </div>
+    </div>
+    <footer>
+        <b>&copy; 2023 FeelGood Airlines. All rights reserved.</b>
+    </footer>
+    </body>
+</html>
